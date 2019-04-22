@@ -30,7 +30,7 @@ class Analysis extends Component {
     const uploadPro = {
       name: "file",
       multiple: true,
-      action: "http://127.0.0.1:5000/classificaiton",
+      action: "http://127.0.0.1:5000/classificaton",
       onChange: info => {
         const status = info.file.status;
         console.log(info);
