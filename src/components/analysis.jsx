@@ -30,7 +30,7 @@ class Analysis extends Component {
     const uploadPro = {
       name: "file",
       multiple: true,
-      action: "http://127.0.0.1:5000/classificaton",
+      action: "http://127.0.0.1:5000/classification",
       onChange: info => {
         const status = info.file.status;
         console.log(info);
@@ -73,7 +73,7 @@ class Analysis extends Component {
           </Col>
           <Col span={4}>
             <Title style={{marginTop:'90px'}} level={4}>
-              the input dataset is predicted to be <u>{this.state.model}</u>-infected
+              the input dataset is predicted to be <u>{this.state.model||'Not Selected'}</u>-infected
             </Title>
           </Col>
         </Row>

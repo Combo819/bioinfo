@@ -27,13 +27,20 @@ class About extends Component {
           style={{ marginTop: "50px" }}
           type="flex"
           justify="space-around"
-          align="top"
+          align="middle"
         >
-          <Col span={8}>
-            <Paragraph style={{ fontSize: "20px", marginTop: 30 }}>
-              Four score and seven years ago our fathers brought forth on this
-              continent, a new nation, conceived in Liberty, and dedicated to
-              the proposition that all men are created equal.
+          <Col span={10}>
+            <Paragraph style={{ fontSize: "18px", marginTop: 30 }}>
+            Welcome to our website, your "number one" source for prediction cases.
+<br/>
+We are from Georgia State University, Computer Science Department/Biochemistry Department. Here is our 8630 ADVANCED BIOINFORMATICS class project website instructed by Dr. Weber and Dr.Harrison. 
+<br/>
+We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
+<br/>
+            </Paragraph>
+            <Paragraph style={{ fontSize: "18px", marginTop: 30 }}>
+            Sincerely,<br/>
+Seth Sims, Yang Li, Yutong Gao
             </Paragraph>
           </Col>
           <Col span={6}>
